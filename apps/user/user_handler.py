@@ -7,3 +7,8 @@ class ShowView(BaseHandler):
     @coroutine
     def get(self):
         self.render('show.html')
+
+class ShowFireworks(BaseHandler):
+    @coroutine
+    def get(self):
+        self.render('index.html')

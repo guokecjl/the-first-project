@@ -3,9 +3,10 @@
 
 import os
 
-from  apps.user.user_handler import ShowView
+from  apps.user.user_handler import ShowView,ShowFireworks
 url = {
     (r'/show',ShowView),
+    (r'/show_fire',ShowFireworks),
 }
 
 
